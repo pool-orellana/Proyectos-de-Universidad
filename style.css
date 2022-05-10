@@ -13,18 +13,8 @@
     width: 140px;
     padding-top: 15px;
 }
-.informacion{
-    width: 50%;
-    color:red;
-    font-size: 20px;
-    float: left;
-}
-.integrantes{
-    width: 50%;
-    font-size: 18px;
-    color: #007bff;
-    float: right;
-}
+
+
 #resp{
     line-height:200px;
     margin: 0 auto;
@@ -37,7 +27,26 @@
     color:black;
 }
 
-/* Menu*/
+/*FOOTER*/
+.informacion{
+  width: 40%;
+  color:red;
+  font-size: 20px;
+  float: left;
+}
+.integrantes{
+  width: 40%;
+  font-size: 18px;
+  color: #007bff;
+  float: left;
+}
+.logo{
+width: 20%;
+float: right;
+}
+
+
+/*MENU*/
 ul {
     list-style-type: none;
     margin: 0;
