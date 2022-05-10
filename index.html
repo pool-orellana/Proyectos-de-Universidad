@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/image/logo.png">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+    <title>Teoria de Conjuntos</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row bg-primary rounded">
+                <div class="col-4 text-center ">
+                    <a href="#">
+                        <img id="bras" class=" float-left rounded" src="/image/logo.png" 
+                        alt="unemat" >
+                    </a>
+                </div>
+                <div class="col-4 text-center">
+                    <p class="text1">6.2.6 OPERACIONES CON CONJUNTOS</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu-->
+        <br>
+        <div>
+            <ul>
+                <li><a href="index.html">Laboratorio de Practica</a></li>
+                <li><a href="tutoriales.html">Tutoriales</a></li>
+                <li><a href="ejercicios.html">Ejercicios Resueltos</a></li>
+              </ul>
+        </div>
+
+    </header>
+    <div id="container2" class="container">
+        <div class="row">
+            <!--Div que recibe las entradas en el lado izquierdo-->
+            <div class="col-6">
+                <p> <i class="em em-apple" aria-role="presentation" aria-label="RED APPLE"></i> <b> Indicaciones </b></p>
+                <p><i class="em em-ballot_box_with_check" aria-role="presentation" aria-label="BALLOT BOX WITH CHECK"></i> Ingrese los elementos separados por <b>","</b>.</p>
+                <p><i class="em em-ballot_box_with_check" aria-role="presentation" aria-label="BALLOT BOX WITH CHECK"></i> Puedes ingresar <b>números</b> & <b>letras</b>. </p>
+                <br>
+                <p> <i class="em em-apple" aria-role="presentation" aria-label="RED APPLE"></i> <b> Conjuntos </b></p>
+                <label for="entrada" > <b>A</b> = </label>
+                <input id="entrada" type="text" value="" placeholder="Ejm: 1,2,3,4,5">
+                <br>
+                <label for="entrada1"> <b> B </b> = </label>
+                <input id="entrada1" type="text" value="" placeholder="Ejm: 1,2,3,4,5">
+
+                <br><br>
+                <div class="text-center">
+                    <div class="btn-group" role="group">
+                        <a onclick="uniao()" class="btn btn-warning text-white "> Union
+                            <br>
+                            A U B 
+                        </a>
+                        <a onclick="inter()" class="btn btn-info text-white "> Interseccion
+                            <br>
+                            A ∩ B
+                        </a>
+                        <a onclick="difer()" class="btn btn-danger text-white "> Diferencia
+                            <br>
+                            A - B
+                        </a>
+                        <a onclick="complemento()" class="btn btn-dark text-white"> Complemento
+                            <br>
+                            A'
+                        </a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <!--Div que muestra los resultados en el lado derecho-->
+            <div id="resposta" class="col-6 rounded text-center">
+                <h3 id="resp">Conjunto Solución</h3>
+            </div>
+        </div>
+    </div>
+</body>
+<hr>
+<footer>
+
+<!--Portada-->
+<div class="informacion">
+    <p>
+        <br>
+        <b>   CIENCIAS EXPERIMENTALES</b>
+        <br>  Matemáticas Discretas
+        <br>  Lic. Tatiana Quezada
+    </p>
+</div>
+
+ <!--Integrantes-->
+<div class="integrantes">
+    <p> 
+        <br>
+        <b> INTEGRANTES</b>
+        <br> Liliana Villa
+        <br> Karen Espinoza
+        <br> Freddy Pesantes
+        <br> Paul Orellana
+    </p>
+</div>
+
+<!--logo del footer-->
+<div class="logo">
+    <img src="/image/favicon.png" alt="logo universidad de cuenca" width="200" height="200">
+
+
+<!-- Librerias -->
+</div>
+    <script src="jquery.js"> </script>
+    <script src="bootstrap.bundle.min.js">
+    </script>
+    <script src="script.js"></script>
+</footer>
+
+</html>
